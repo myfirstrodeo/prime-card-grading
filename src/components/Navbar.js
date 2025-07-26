@@ -1,20 +1,21 @@
 import React from 'react';
 import './Navbar.css';
-import logo from '../assets/pcg.png';
+import pcgLogo from '../assets/pcg.png';
 
-export default function Navbar() {
+const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={logo} alt="PCG Logo" />
+        <img src={pcgLogo} alt="Prime Card Grading" />
       </div>
       <ul className="navbar-links">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">GRADING PROCESS</a></li>
-        <li><a href="#">LOOKUP</a></li>
-        <li><a href="#">SUBMIT</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="#grading">Grading</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#lookup">Lookup</a></li>
+        <li><a href="#submit">Submit</a></li>
       </ul>
     </nav>
   );
-}
+};
+
+export default Navbar;

@@ -10,6 +10,7 @@
 .hero-text {
   flex: 1;
   min-width: 300px;
+  padding-right: 20px;
 }
 
 .hero-text h1 {
@@ -40,6 +41,7 @@
   display: flex;
   justify-content: center;
   min-width: 300px;
+  padding-left: 20px;
 }
 
 .hero-image img {
@@ -47,3 +49,21 @@
   height: auto;
   transform: rotate(-1deg);
 }
+
+/* ✅ Mobile responsive styling */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    padding-right: 0;
+  }
+
+  .hero-image {
+    margin-top: 30px;
+    padding-left: 0;
+  }
+}
+

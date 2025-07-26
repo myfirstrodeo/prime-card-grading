@@ -1,18 +1,16 @@
 import React from 'react';
 import './Navbar.css';
-import pcgLogo from '../assets/pcg.png';
+import logo from '../assets/pcg.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
-        <img src={pcgLogo} alt="Prime Card Grading" />
-      </div>
-      <ul className="navbar-links">
-        <li><a href="#grading">Grading</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#lookup">Lookup</a></li>
-        <li><a href="#submit">Submit</a></li>
+      <img src={logo} alt="PCG Logo" className="logo" />
+      <ul className="nav-links">
+        <li><a href="#grading">GRADING PROCESS</a></li>
+        <li><a href="#lookup">LOOKUP</a></li>
+        <li><a href="#submit">SUBMIT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
   );

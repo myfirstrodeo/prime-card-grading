@@ -1,33 +1,36 @@
 import React from 'react';
-import bgStars from '../assets/bg-stars.jpg';
-import mjSlab from '../assets/mj-slab.png';
 import './Hero.css';
+import bgStars from '../assets/bg-stars.jpg';
+import slabImage from '../assets/pcg.png';
 
-export default function Hero() {
+function Hero() {
   return (
-    <section
-      className="hero"
-      style={{
-        backgroundImage: `url(${bgStars})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        padding: '100px 20px',
-        color: 'white',
-      }}
-    >
-      <div className="hero-container">
+    <div className="hero-wrapper" style={{ backgroundImage: `url(${bgStars})` }}>
+      <div className="hero-content">
         <div className="hero-text">
           <h1>
             GRADING <br />
-            WITH PRECISION. <br />
-            BUILT FOR TRUST.
+            WITH <br />
+            PRECISION. <br />
+            BUILT FOR <br />
+            TRUST.
           </h1>
-          <button className="cta-button">SUBMIT YOUR CARD</button>
+          <button className="submit-btn">SUBMIT YOUR CARD</button>
         </div>
         <div className="hero-image">
-          <img src={mjSlab} alt="Michael Jordan PCG Slab" />
+          <img src={slabImage} alt="PCG Slab" />
         </div>
       </div>
-    </section>
+
+      <div className="why-section">
+        <h2>WHY PCG?</h2>
+        <p>
+          We’re built different. No subgrades. No confusion. <br />
+          Just clear, objective, tech-assisted grading you can trust.
+        </p>
+      </div>
+    </div>
   );
 }
+
+export default Hero;

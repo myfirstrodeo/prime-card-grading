@@ -1,0 +1,32 @@
+.hero {
+  background-image: url('/bg-stars.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 20px;
+  text-align: left;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-content {
+  max-width: 600px;
+}
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.hero-content button {
+  background-color: #0af;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hero img {
+  max-width: 400px;
+}

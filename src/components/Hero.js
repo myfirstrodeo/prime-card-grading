@@ -1,17 +1,15 @@
 import React from 'react';
 import './Hero.css';
-import cardImage from '../assets/mj-slab.png'; // Put your image in /src/assets/
+import slabImage from '../assets/mj-slab.png'; // Adjust path if needed
 
 const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-content">
         <h1>GRADING WITH<br />PRECISION.<br />BUILT FOR TRUST.</h1>
-        <a href="#submit" className="cta-button">SUBMIT YOUR CARD</a>
+        <button>Submit Your Card</button>
       </div>
-      <div className="hero-image">
-        <img src={cardImage} alt="Graded Card" />
-      </div>
+      <img src={slabImage} alt="Graded Card Slab" />
     </section>
   );
 };

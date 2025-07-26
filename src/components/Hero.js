@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hero.css'; // optional, if you want to style it separately
+import './Hero.css'; // optional, but make sure the file exists
 
 const Hero = () => {
   return (
@@ -14,4 +14,3 @@ const Hero = () => {
 };
 
 export default Hero;
-

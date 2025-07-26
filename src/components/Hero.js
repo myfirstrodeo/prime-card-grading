@@ -1,38 +1,32 @@
-// src/components/Hero.js
 import React from 'react';
-import bgStars from '../assets/bg-stars.jpg';
-import slabImage from '../assets/pcg.png';
 import './Hero.css';
+import cardImage from '../assets/pcg.png'; // replace with card slab image if needed
 
 const Hero = () => {
   return (
-    <section
-      className="hero"
-      style={{
-        backgroundImage: `url(${bgStars})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        color: '#fff',
-        padding: '100px 20px',
-        textAlign: 'center',
-      }}
-    >
-      <h1 style={{ fontSize: '3rem', marginBottom: '20px' }}>Prime Card Grading</h1>
-      <p style={{ fontSize: '1.2rem', marginBottom: '40px' }}>
-        Transparent. Trustworthy. Tech-driven grading for your sports cards.
-      </p>
-      <img
-        src={slabImage}
-        alt="PCG Slab"
-        style={{
-          width: '300px',
-          maxWidth: '90%',
-          borderRadius: '8px',
-          boxShadow: '0 4px 12px rgba(0,0,0,0.4)',
-        }}
-      />
-    </section>
+    <div className="hero-wrapper">
+      <div className="hero-content">
+        <div className="hero-text">
+          <h1>GRADING<br />WITH<br />PRECISION.<br />BUILT FOR<br />TRUST.</h1>
+          <button className="submit-btn">SUBMIT YOUR CARD</button>
+        </div>
+        <div className="hero-image">
+          <img src={cardImage} alt="Graded Card" />
+        </div>
+      </div>
+
+      <div className="why-section">
+        <h2>WHY PCG?</h2>
+        <p>
+          We’re built different. No subgrades. No confusion.<br />
+          Just clear, objective, tech-assisted grading you can trust.
+        </p>
+      </div>
+    </div>
   );
 };
+
+export default Hero;
+
 
 export default Hero;

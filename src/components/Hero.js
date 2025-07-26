@@ -1,15 +1,14 @@
 import React from 'react';
 import './Hero.css';
-import slabImage from '../assets/mj-slab.png';
 
 const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1>GRADING WITH<br />PRECISION.<br />BUILT FOR TRUST.</h1>
-        <button>Submit Your Card</button>
+        <h1>Welcome to Prime Card Grading</h1>
+        <p>Your cards deserve expert eyes. Get fast, transparent grading with AI-enhanced accuracy.</p>
+        <button>Submit Your Cards</button>
       </div>
-      <img src={slabImage} alt="Graded Card Slab" />
     </section>
   );
 };

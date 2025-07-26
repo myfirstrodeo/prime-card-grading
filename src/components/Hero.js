@@ -1,6 +1,7 @@
 import React from 'react';
 import bgStars from '../assets/bg-stars.jpg';
 import mjSlab from '../assets/mj-slab.png';
+import './Hero.css';
 
 export default function Hero() {
   return (

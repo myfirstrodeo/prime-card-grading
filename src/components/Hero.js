@@ -1,3 +1,4 @@
+// src/components/Hero.js
 import React from 'react';
 import './Hero.css';
 
@@ -5,9 +6,8 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1>Welcome to Prime Card Grading</h1>
-        <p>Your cards deserve expert eyes. Get fast, transparent grading with AI-enhanced accuracy.</p>
-        <button>Submit Your Cards</button>
+        <h1>GRADING WITH PRECISION.<br />BUILT FOR TRUST.</h1>
+        <button>SUBMIT YOUR CARD</button>
       </div>
     </section>
   );

@@ -1,16 +1,9 @@
-import React from 'react';
-import './Hero.css'; // optional, but make sure the file exists
+.hero {
+  background-color: #f0f0f0;
+  padding: 100px 20px;
+  text-align: center;
+}
 
-const Hero = () => {
-  return (
-    <section className="hero">
-      <div className="hero-content">
-        <h1>Welcome to Prime Card Grading</h1>
-        <p>Your cards deserve expert eyes. Get fast, transparent grading with AI-enhanced accuracy.</p>
-        <button>Submit Your Cards</button>
-      </div>
-    </section>
-  );
-};
-
-export default Hero;
+.hero h1 {
+  color: #0070f3;
+}

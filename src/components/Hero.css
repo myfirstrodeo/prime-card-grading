@@ -1,37 +1,40 @@
 .hero {
+  background-image: url('/bg-stars.jpg'); /* or 'bg-stars.jpg' if in public folder */
+  background-size: cover;
+  background-position: center;
+  padding: 150px 20px;
+  text-align: left;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: url('/bg-stars.jpg') no-repeat center center;
-  background-size: cover;
-  padding: 100px 60px;
-  color: white;
-  flex-wrap: wrap;
 }
 
 .hero-content {
   max-width: 600px;
 }
 
-.hero h1 {
+.hero-content h1 {
   font-size: 48px;
-  font-weight: 800;
+  font-weight: bold;
   line-height: 1.2;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
-.cta-button {
-  background-color: transparent;
-  border: 2px solid #24aae1;
-  color: #24aae1;
-  padding: 15px 30px;
-  border-radius: 6px;
+.hero-content button {
+  background-color: #0af;
+  border: none;
+  padding: 12px 24px;
   font-size: 16px;
-  text-decoration: none;
-  transition: all 0.3s ease;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.cta-button:hover {
+.hero img {
+  max-width: 400px;
+}
+
   background-color: #24aae1;
   color: white;
 }

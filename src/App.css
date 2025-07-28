@@ -1,120 +1,16 @@
-/* Reset & base */
-body, html, #root {
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: #ffffff;
-  color: #333;
-  height: 100%;
-}
-
-/* Layout */
-.App {
+.coming-soon-wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-}
-
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
-  background-color: #ffffff;
-  border-bottom: 1px solid #eaeaea;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #000;
+  color: white;
+  padding: 20px;
 }
 
-.navbar-logo img {
-  height: 40px;
-}
-
-.nav-links {
-  display: flex;
-  gap: 20px;
-}
-
-.nav-links a {
-  color: #333;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.2s ease-in-out;
-}
-
-.nav-links a:hover {
-  color: #24aae1;
-}
-
-/* Buttons */
-.button {
-  background-color: #24aae1;
-  color: #fff;
-  padding: 12px 20px;
-  border-radius: 6px;
-  border: none;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: #1075bc;
-}
-
-/* Utility */
-.section {
-  padding: 60px 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.section-title {
-  font-size: 2.5rem;
-  font-weight: 700;
+.logo {
+  max-width: 300px;
   margin-bottom: 20px;
-  color: #000;
-  text-align: center;
-}
-
-.section-subtext {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  text-align: center;
-  color: #555;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .hero-wrapper {
-    padding: 30px 20px;
-    text-align: center;
-  }
-
-  .hero-content {
-    flex-direction: column;
-  }
-
-  .hero-text h1 {
-    font-size: 2.2rem;
-  }
-
-  .hero-image img {
-    max-width: 100%;
-    margin-top: 20px;
-  }
-}
+}p

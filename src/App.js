@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import './App.css';
-import logo from './assets/pcg.png'; // Make sure this path is correct
+import logo from './assets/pcg.png'; // make sure this file exists
 
 function App() {
   return (

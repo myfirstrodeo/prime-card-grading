@@ -1,16 +1,7 @@
 {
   "name": "prime-card-grading",
   "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",     // ← THIS MUST EXIST
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "echo 'Nothing to build for static site'"
   }
 }

@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.headline {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #00f0ff;
+  margin-bottom: 30px;
+  text-shadow: 0 0 15px #00f0ff;
+}
+
+.card-image {
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.4);
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.footer-note {
+  font-size: 1.1rem;
+  color: #ccc;
+}
